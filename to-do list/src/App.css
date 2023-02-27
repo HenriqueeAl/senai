@@ -1,0 +1,79 @@
+.App{
+  width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  margin-bottom: 50px;
+}
+
+.form-addtask{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.input-addtask{
+  width: 40%;
+  height: 50px;
+  padding-left: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  outline: none;
+  margin-right: 20px;
+}
+
+.inputsubmit-addtask{
+  width: 10%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.tasks{
+  border: 1px solid black;
+  width: 70%;
+  min-height: 500px;
+  border-radius: 10px;
+}
+
+.task{
+  font-size: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  min-height: 70px;
+  color: gray;
+}
+
+.tasknocomplete{
+  display: flex;
+}
+
+.taskname-complete{
+  color: green;
+}
+
+.tasknocomplete input{
+  width: 25px;
+  margin-right: 15px;
+  background-color: red;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.task p{
+}
+
+.delete{
+  cursor: pointer;
+}
